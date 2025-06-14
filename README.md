@@ -8,17 +8,7 @@
 
 > A lightweight and interactive web application powered by a deep learning model to detect **fire** in satellite images in real-time. Designed for wildfire detection, remote sensing, and early warning systems.
 
----
 
-## 📸 Demo Preview
-
-Upload any satellite image (JPG, PNG) and get instant fire detection results with confidence.
-
-<p align="center">
-  <img src="https://media.giphy.com/media/U5xkM8E4cP5lu/giphy.gif" width="60%" alt="Fire Detection Demo">
-</p>
-
----
 
 ## 🧠 About the Model
 
