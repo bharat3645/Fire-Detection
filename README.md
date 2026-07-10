@@ -8,8 +8,6 @@
 
 > A lightweight and interactive web application powered by a deep learning model to detect **fire** in satellite images in real-time. Designed for wildfire detection, remote sensing, and early warning systems.
 
-
-
 ## 🧠 About the Model
 
 - **Format:** Keras `.h5`
@@ -32,5 +30,24 @@
 1. Clone the repository
 
 ```bash
-git clone https://github.com/bharat3645/fire-detection-streamlit.git
-cd fire-detection-streamlit
+git clone https://github.com/bharat3645/Fire-Detection.git
+cd Fire-Detection
+```
+
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the app
+
+```bash
+streamlit run app.py
+```
+
+Streamlit will open the app in your browser. Upload a satellite image (`.jpg`, `.jpeg`, or `.png`) and click **Detect Fire** to get a prediction with a confidence score.
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
